@@ -1,0 +1,16 @@
+.topnav {
+    background-color: #add8e6;
+    overflow: hidden;
+    margin: 0%;
+}
+
+#bar-title {
+    color: yellow;
+    padding: 10px;
+}
+
+#welcome {
+    padding: 7% 44.5%;
+    font-size: 50px;
+}
+
