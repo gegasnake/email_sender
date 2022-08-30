@@ -16,20 +16,20 @@ from pathlib import Path
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST_USER = "gegatvara@gmail.com"
+EMAIL_HOST_USER = "youremail@gmail.com"
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_PASSWORD = "hbtzlwnnvzsfnawl"
+EMAIL_HOST_PASSWORD = "host_password"
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/dev/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-*g5kamw6*c)j27r5u-l22=u)0#0=*+ymx(5mgtl5t7j^h%^c-6'
+SECRET_KEY = 'django-insecure-some secret key'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['0.0.0.0']
 
